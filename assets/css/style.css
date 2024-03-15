@@ -111,7 +111,7 @@ main {
 #cover-text > h2, #cover-text > h3{
     color:#ffffff;
 }
-
+/*Reasons*/
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -136,6 +136,24 @@ main {
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background:url("../images/reasons-image.webp") no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*Circle cover*/
+    border-radius: 50%;
+    /*For mobiles*/
+    max-height: 300px;
+    max-width: 300px;
+}
+/*To fix the image positioning on landscape view - mobile*/
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
