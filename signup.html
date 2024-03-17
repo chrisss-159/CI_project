@@ -44,27 +44,26 @@
             <form method="post" action="https://formdump.codeinstitute.net" id="signup-form">
                 <h2><i class="fa-solid fa-heart-pulse"></i>Let's get you signed up!</h2>
                 <label for="fname">First Name:</label>
-                <input type="text" name="FirstName" id="first_Name" label="fname" class="text-input" required><br>
+                <input type="text" name="fname" id="fname" class="text-input" required><br>
                 <label for="lname">Last Name:</label>
-                <input type="text" name="LastName" id="last_Name" label="lname" class="text-input" required><br>
+                <input type="text" name="lname" id="lname" class="text-input" required><br>
                 <label for="email">Email:</label>
-                <input type="email" name="Email" id="email" label="email" class="text-input" required><br>
-                <div class="radio-buttons">
+                <input type="email" name="email" id="email" class="text-input" required><br>
+                <div id="radio-buttons">
                     <div>
                         <input type="radio" id="road" name="running-preferences" value="road" required checked>
                         <label for="road">Road</label>
                     </div>
                     <div>
-                        <input type="radio" id="trail" name="running-preferences" value="trail" required checked>
+                        <input type="radio" id="trail" name="running-preferences" value="trail" required>
                         <label for="trail">Trail</label>
                     </div>
                     <div>
-                        <input type="radio" id="both" name="running-preferences" value="both" required checked>
+                        <input type="radio" id="both" name="running-preferences" value="both" required>
                         <label for="both">Both</label>
                     </div>
                 </div>
-                <label for="submit">
-                <input class="join-button" id="submit" type="submit" value="Let's Run!">
+                <button class="join-button" type="submit">Let's Run!</button>
                 </label>
             </form>
         </section>
